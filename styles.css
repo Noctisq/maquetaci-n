@@ -1,0 +1,182 @@
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: none;
+}
+
+.title {
+  color: white;
+}
+.article_title {
+  color: white;
+}
+
+.promo {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+.explanatory-video {
+  width: 100%;
+}
+
+.features {
+  background-color: #025157;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.features .feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.features .feature-card > h3 {
+  font-size: 15px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+  margin-top: 0;
+  width: 300px;
+}
+
+.features .feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features .feature-card .feature-content img {
+  width: 50px;
+}
+
+.features .feature-card .feature-image {
+  right: 100px;
+  height: 80%;
+}
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
+.getStarted-container {
+  display: flex;
+  width: 100%;
+
+  justify-content: flex-end;
+}
+.header-container {
+  display: flex;
+}
+
+.getStarted {
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #025157;
+  align-self: center;
+  font-weight: 1000;
+  font-size: 15px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 32px;
+  margin: 30px;
+  color: #025157;
+}
+.publish {
+  display: flex;
+  flex-direction: column;
+}
+
+.publish > p {
+  color: #46484c;
+  font-weight: 1000;
+  text-align: center;
+}
+.publish > button {
+  align-self: center;
+  border: none;
+  background: none;
+  width: 90%;
+  height: 35px;
+  background-color: #67b54b;
+  border-radius: 5px;
+}
+
+.trial {
+  background-color: #67b54b;
+  margin-bottom: 10px;
+}
+.trial {
+  color: white;
+  font-size: 15px;
+}
+
+.titleCard {
+  text-align: center;
+  color: #025157;
+}
+
+.feature-content > p {
+  text-align: center;
+  color: #46484c;
+}
+.feature-content > a {
+  margin-left: 15px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffbf7;
+}
+
+.products > h3 {
+  text-align: center;
+  color: #025157;
+}
+
+.matcha > h3 {
+  text-align: center;
+  color: #025157;
+}
+.resources > h3 {
+  text-align: center;
+  color: #025157;
+}
+
+a {
+  text-decoration: none;
+  color: #515151;
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
